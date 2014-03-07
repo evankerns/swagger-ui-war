@@ -16,16 +16,16 @@ The purpose of this module is to provide a Maven war module that TASC web applic
 ### Using in other applications
 
 1. Add this war as a runtime dependency to your pom:
- 
+```
     <dependency>
-        <groupId>com.tasconline.web</groupId>
+	    <groupId>com.tasconline.web</groupId>
         <artifactId>swagger-ui-war</artifactId>
 		<scope>runtime</scope>
 		<type>war</type>
 	</dependency>
-    
+```
 2. Add the overlay to your build/plugins. Set the *targetPath* option to whichever subdirectory you want to serve the content from:
-
+```
      <plugin>
 		<groupId>org.apache.maven.plugins</groupId>
 		<artifactId>maven-war-plugin</artifactId>
@@ -39,6 +39,7 @@ The purpose of this module is to provide a Maven war module that TASC web applic
             </overlays>
 		</configuration>
 	</plugin>
+```
 
 And you are done!
 
