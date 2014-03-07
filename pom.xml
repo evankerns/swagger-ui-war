@@ -1,0 +1,33 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.tasconline.parent</groupId>
+		<artifactId>tasc-parent</artifactId>
+		<version>15</version>
+	</parent>
+	<groupId>com.tasconline.web</groupId>
+	<artifactId>swagger-ui-war</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>war</packaging>
+	<name>Swagger UI WAR</name>
+	<description>Maven war package of revision 28ac6f874584c670deea5f9a16c19cef458e0bbb. Contents of the dist
+	directory have been copied to src/main/webapp.</description>
+	
+	<scm>
+		<url>https://github.com/wordnik/swagger-ui</url>
+	</scm>
+	
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-war-plugin</artifactId>
+				<version>2.4</version>
+				<configuration>
+					<failOnMissingWebXml>false</failOnMissingWebXml>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+</project>
