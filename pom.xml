@@ -4,7 +4,7 @@
 	<parent>
 		<groupId>com.tasconline.parent</groupId>
 		<artifactId>tasc-parent</artifactId>
-		<version>15</version>
+		<version>16</version>
 	</parent>
 	<groupId>com.tasconline.web</groupId>
 	<artifactId>swagger-ui-war</artifactId>
@@ -15,7 +15,9 @@
 	directory have been copied to src/main/webapp.</description>
 	
 	<scm>
-		<url>https://github.com/wordnik/swagger-ui</url>
+		<connection>scm:git:https://github.com/tasconline/swagger-ui-war</connection>
+		<developerConnection>scm:git:https://github.com/tasconline/swagger-ui-war</developerConnection>
+		<url>https://github.com/tasconline/tasc-sample-jar</url>
 	</scm>
 	
 	<build>
