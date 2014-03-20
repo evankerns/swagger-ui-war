@@ -1,5 +1,4 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>com.tasconline.parent</groupId>
@@ -8,7 +7,7 @@
 	</parent>
 	<groupId>com.tasconline.web</groupId>
 	<artifactId>swagger-ui-war</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.1.0</version>
 	<packaging>war</packaging>
 	<name>Swagger UI WAR</name>
 	<description>Maven war package of revision 28ac6f874584c670deea5f9a16c19cef458e0bbb. Contents of the dist
@@ -18,7 +17,8 @@
 		<connection>scm:git:https://github.com/tasconline/swagger-ui-war</connection>
 		<developerConnection>scm:git:https://github.com/tasconline/swagger-ui-war</developerConnection>
 		<url>https://github.com/tasconline/tasc-sample-jar</url>
-	</scm>
+	  <tag>swagger-ui-war-0.1.0</tag>
+  </scm>
 	
 	<build>
 		<plugins>
