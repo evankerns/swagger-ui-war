@@ -7,7 +7,7 @@
 	</parent>
 	<groupId>com.tasconline.web</groupId>
 	<artifactId>swagger-ui-war</artifactId>
-	<version>0.1.0</version>
+	<version>0.1.1-SNAPSHOT</version>
 	<packaging>war</packaging>
 	<name>Swagger UI WAR</name>
 	<description>Maven war package of revision 28ac6f874584c670deea5f9a16c19cef458e0bbb. Contents of the dist
@@ -17,7 +17,7 @@
 		<connection>scm:git:https://github.com/tasconline/swagger-ui-war</connection>
 		<developerConnection>scm:git:https://github.com/tasconline/swagger-ui-war</developerConnection>
 		<url>https://github.com/tasconline/tasc-sample-jar</url>
-	  <tag>swagger-ui-war-0.1.0</tag>
+	  <tag>HEAD</tag>
   </scm>
 	
 	<build>
